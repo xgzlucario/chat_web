@@ -72,7 +72,7 @@ export default {
         this.getLength()
         setInterval(() => {
           this.getLength()
-        }, 10000)
+        }, 2000)
         console.log("连接成功")
         this.login = true
       }
